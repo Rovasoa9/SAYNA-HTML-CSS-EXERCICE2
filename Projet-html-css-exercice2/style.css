@@ -1,0 +1,615 @@
+body{
+    font-family:Arial, sans-serif;
+    padding:0%;
+    margin:0%;
+    width:100%;
+    display:block;
+}
+/***********************************entete du devoir avec header******************/
+header {
+    background-color:#27242b;
+    display:block;
+    width:100%;
+}
+
+ul>li{
+    display:block;
+    float:left;
+    margin-left:10%;
+    padding-top:4%;
+   
+    list-style-type: none;
+
+
+}
+#Home a{
+   
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    margin-left:1%;
+
+}
+#horizontal img{
+    display:block;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:6%;
+
+}
+#lien a{
+    display:block;
+    color:#3d9f96;
+    float:right;
+    margin-top: -6%;
+    margin-right: 20%;
+}
+#content{
+    width:100%;
+}
+/**********************************conteneur dy devoir avec section*****************************/
+section{
+
+    border-top: 2px solid #f7f7f7;
+    width:100%;
+    height:auto;
+    padding-bottom:0;
+    padding-right:-30%;
+    background-color:#27242b;
+    position: absolute;
+    z-index:2;
+}
+div{
+    text-align:center;
+}
+#ordinateur{
+    margin-top:4%;
+   
+}
+div h1{
+    font-size:3em;
+    font-family:'Raleway', Arial, sans-serif ;
+    color:#f7f7f7;
+}
+div strong{
+    color:white;
+    font-family:italic;
+}
+h2{
+    font-size:1em;
+    font-family: 'Raleway', Arial, sans-serif ;
+    color:#3d9f96;
+    margin-top:2%;
+    margin-bottom:5%;
+}
+div p{
+    color:#ababab;
+}
+input{
+    font-size:1em;
+    color:white;
+    margin-top:4%;
+    width:15%;
+    padding:1%;
+    border-radius:30px;
+    background-color:#3d9f96;
+    
+}
+/****************************2eme conteneur du devoir avec aside***************************/
+aside{
+    position:relative;
+    background-color:#f7f7f7;
+    padding:5% 10%;
+    margin-top: -10%;
+    z-index:1;
+}
+#icon img{
+    float:left;
+    margin-left:7%;
+}
+aside p{
+    color:#3d9f96;
+    padding-top:10%;
+   text-align:center;
+    font-size:1em;
+}
+/***********************************3eme conteneur avec arcticle 1*************************/
+article{
+    position:absolute;
+    background-color:white;
+    width:100%;
+    padding-top:5%;;
+}
+#article1{
+    display: block;
+
+    position:relative;
+    margin-top: 0%;
+    padding:5%;
+
+}
+#article1 h1{
+    color:#ababab;
+    font-family: 'raleway',sans-serif;
+}
+#article1 strong{
+    color:black;
+}
+#article1 p{
+    color:#ababab;
+}
+/*********************************4eme conteneur avec article 2******************************/
+#article2{
+    padding-top:5%;
+    margin-left:5%;
+    background-color:white; 
+}
+
+
+#article2 div{
+    position:relative;
+    display:block;
+    border:1px solide white;
+    background-image:url(assets/img/map_bg.png);
+    background-repeat: repeat;
+    height:auto;
+    float:left;
+    padding-bottom: 10%;
+}
+/*************************bloc1 figure********************************/
+#bloc1 {
+    position :absolute;
+    display:block;
+    width:30%;
+    height:auto;
+}
+#bloc1 figure{
+    display:block;
+    
+
+}
+#bloc1 figcaption {
+    color:#ababab;
+    text-align: center;
+    overflow: hidden;
+}
+/*************************bloc2 image********************************/
+#bloc2{
+    position :absolute;
+    display :block;
+    width:30%;
+    height:auto;
+    padding-left:10%;
+
+}
+#bloc2 img{
+    display:block;
+   
+}
+#bloc2 #logo{
+    margin-top:-55%;
+    padding-left:10%;
+
+}
+
+/************************bloc3 figure*******************************/
+#bloc3{
+    position :absolute;
+    display :block;
+    border:1px solide black;
+    width:30%;
+    height:auto;
+    margin-left:-5%;
+}
+#bloc3 figcaption {
+    color:#ababab;
+    text-align: center;
+    overflow: hidden;
+}
+/************************************section class jonh ***********************************/
+.jonh{
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding-top:4%;
+    background-color:#27242b;
+    margin-top:75%;
+    margin-bottom: 4%;
+}
+#jonh>p{
+    padding-top:5%;
+    
+}
+#nom{
+    color:#3d9f96;
+    padding-bottom:5%;
+    padding-top:2%;
+    font-size:2em;
+}
+/***********************************section class screenshot****************************/
+.screenshot{
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding-top:4%;
+    background-color:#f7f7f7;
+    margin-top:103%;
+    padding-bottom:20%;
+
+}
+#sary{
+    display:flex;
+    position:relative;
+    padding-left:20%;
+}
+                                                        
+.screenshot>figure{
+    position:relative;
+    display:block;
+    float:left;
+    height:auto;
+    margin-top:2%;
+   
+}
+.screenshot h2{
+    font-size:3em;
+    color:#ababab;
+    margin-left:-15%;
+   
+}
+.screenshot strong{
+    color:black;
+} 
+/************************section avec tester****************************/
+.tester{
+    display:block;
+    position:absolute;
+    width:100%;
+    margin-top:163%;
+    background-color:white;
+    margin-bottom: 5%;
+} 
+
+/**************************** la premiere block tested dans la section tester***************/
+#tested{
+    display:flex;
+    padding:6%;
+    margin-left:15%;
+} 
+#tested p {
+    color:#ababab;
+    
+}
+#tested input{
+    font-size:1em;
+    color:white;
+    margin-top: 10%;
+    width:50%;
+    padding:2%;
+    border-radius:50px;
+    background-color:#3d9f96;
+} 
+#tested img{
+    display: block;
+    padding:0%;
+}
+#logo2 img{
+    margin-top:-50%;
+}
+#litmus{
+    display:block;
+    padding:6%;
+    margin-left:10%;
+    margin-top:-7%;
+}
+#litmus h3{
+    font-size:2em;
+    
+}
+#litmus p{
+    padding-top:5%;
+
+}
+ /*************************la deuxieme block website dans la section tester*************/    
+#website{
+    display:flex;
+    padding:5%;
+    margin-left:15%;
+}
+#website p {
+    color:#ababab;
+}
+#website input{
+        font-size:1em;
+        color:white;
+        margin-top:4%;
+        width:15%;
+        padding:2%;
+        border-radius:30px;
+        background-color:#3d9f96;
+} 
+#responsive{
+    display : block;
+    width :32%;
+    padding:0%;
+}
+#responsive h3{
+    font-size:2em;
+}
+#responsive p{
+    padding-top:5%;
+}
+#responsive input{
+    font-size:1em;
+    color:white;
+    margin-top: 10%;
+    width:50%;
+    padding:2%;
+    border-radius:50px;
+    background-color:#3d9f96;
+}
+#phone{
+    display: block;
+    padding:0% 5% 5% 5%;
+    margin-left:10%;
+}
+/******************************footer***************************/
+footer{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:auto;
+    margin-top:350%;
+    background-color:#f7f7f7;
+    padding-top:5%;
+}
+/***************************footer partie 1*********************/
+#paragraphe{
+    display:flex;
+    margin-left:15%;
+    margin-bottom:4%;
+}
+#paragraphe p{
+    color:#322f36;
+}
+#para1{
+    display:block;
+    width:30%;
+    padding:0%;
+    margin-left:5%;
+}
+#para2{
+    display:block;
+    width:15%;
+    padding:0%;
+    margin-left :5%;
+}
+#para3{
+    display:block;
+    width:30%;
+    padding:0%;
+    margin-left:5%;
+}
+/*************************footer partie 2************************/
+#copyright{
+    display:flex;
+    padding:2%;
+    background-color:#f9f9f9;
+}
+#copyright>p{
+    margin-left:20%;
+    font-size:12px;
+    color:#322f36;
+
+}
+#icon2{
+    display:block;
+    padding-top:1%;
+   margin-left:35%;
+}
+/**********************************MEDIA QUERIES ****************************************************/
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    /***********************************entete du devoir avec header******************/
+header {
+    background-color:#27242b;
+    display:block;
+    width:100%;
+}
+
+ul>li{
+    display:block;  
+    list-style-type: none;
+    padding-top:4%;
+    margin-bottom:2%;
+    margin-left:0%;
+    float:none;
+    width:20%;
+}
+#Home a{
+   
+    color: #322f36;
+
+}
+#horizontal img{
+    text-align: center;
+    margin-left: 25%;
+    margin-top:-14%;
+    margin-right:25%;
+    display:flex;
+
+}
+#lien a{
+    display:block;
+    text-decoration:none;
+    color: #322f36;
+    margin-right:0%;
+    padding-right:4%;
+}
+#content{
+    width:100%;
+}
+/************************section input**********/
+input{
+    width:30%;
+}
+/*********************aside icone***************/
+#icon img{
+    float:left;
+    margin-left:7%;
+    width:5%;
+}
+/********************article*********************/
+article{
+    margin-top:-20%;
+    padding-top:10%;
+    background-color:white;
+}
+#article2 div{
+
+    display:block;
+    padding-bottom: 10%;
+    background:none;
+    width:100%;
+    margin-left:0%;
+}
+#bloc1 {
+    width:100%;
+
+    
+}
+#bloc2{
+    
+width:100%;
+margin-left:20%;
+    
+
+}
+#bloc2 #logo{
+    margin-top:-40%;
+    padding-top:10%;
+    padding-left:5%;
+    padding-bottom:10%;
+
+}
+
+#bloc3{
+    width:100%;
+    margin-top:0%;
+    padding-top:10%;
+}
+/*********************jonh********************/
+.jonh{
+    padding-top:4%;
+    background-color:#27242b;
+    margin-top:266%;
+}
+/*********************screenshot***********/
+.screenshot{
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding-top:4%;
+    background-color:#f7f7f7;
+    margin-top:322%;
+    padding-bottom:20%;
+
+}
+.screenshot h2{
+    padding-left:0%;
+    font-size:2em;
+}
+#sary{
+padding-left:0%;
+display:block;
+
+}
+
+/**********************tester***************/
+.tester{
+    display:block;
+    position:absolute;
+    width:100%;
+    margin-top:600%;
+    background-color:white;
+    margin-bottom: 5%;
+} 
+#tested{
+    display:block;
+    margin-left:0%;
+    padding-left: 20%;
+} 
+#litmus{
+    margin-top:60%;
+    margin-left:0%;
+    padding:0%;
+}
+#website{
+    display:block;
+    margin-left:0%;
+}
+#responsive{
+    display : block;
+    text-align:center;
+    width :60%;
+    padding:0%;
+    margin-left:15%;
+}
+#phone{
+    margin-top:10%;
+}
+/**********************footer****************/
+footer{
+   
+    margin-top: 1120%;
+padding-top: 5%;
+}
+#paragraphe{
+    display:block;
+}
+#para1{
+    width:80%;
+    margin:5% 5%;
+}
+#para2{
+    width:60%;
+    margin:5% 15%;
+   
+}
+#para3{
+    width:90%;
+    margin:5% 4%;
+}
+#copyright{
+    display:block;
+}
+#copyright>p{
+    margin-left:5%;
+    font-size:15px;
+
+}
+#icon2{
+    padding-top:3%;
+   margin-left:4%;
+}
+#icon2 img{
+    width:7%;
+    padding-left:3%;
+}
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
